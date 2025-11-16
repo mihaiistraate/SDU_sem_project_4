@@ -14,3 +14,7 @@ For designing the PCB, KiCad was used and we generated a schematic and a PCB lay
 
 <img width="1820" height="1252" alt="PCB schematic" src="https://github.com/user-attachments/assets/8685328c-fad8-4ee5-80a8-a391c308e722" />
 <img width="1855" height="1279" alt="PCB layout" src="https://github.com/user-attachments/assets/c81b54ec-c1f8-4729-b871-97caff80ccd1" />
+
+One requirement for the project was to use an FPGA board, with the help of Vivado, using VHDL. Therefore, the code can be analysed in the "VHDL" folder in this repository. In addition, because of the complexity of the VHDL code, we wanted to have a backup solution, and for this, we decided to use an ESP32, which was programmed in Arduino IDE, and the code can be seen in this repository. In addition, the schematic of the compiled and synthesised VHDL code is:
+
+<img width="1706" height="703" alt="VHDL schematic" src="https://github.com/user-attachments/assets/adeeb31e-d74a-417d-a9f2-cad49994f6bf" />
